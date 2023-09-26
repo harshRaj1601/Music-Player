@@ -12,7 +12,7 @@ from time import gmtime
 mixer.init()
 #import getpass
 smw=os.getlogin()
-print(smw)
+
 List_ = None
 filename = None
 erw=open("last.txt","a")
@@ -758,7 +758,7 @@ def main():
         en.focus_set()
         
 
-    root.iconbitmap("H:/Papirus-Team-Papirus-Apps-Google-play-music-desktop-player.ico")
+    root.iconbitmap("music.ico")
     l.bind("<<ListboxSelect>>",fillout) 
     en.bind("<KeyRelease>",check) 
     root.bind("<space>",pandc)
